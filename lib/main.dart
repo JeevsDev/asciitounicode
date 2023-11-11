@@ -58,14 +58,14 @@ class UnicodeConversionDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String message = "Hi How Are you? 😀"; // Your message with Unicode smiley
+    String message = "Hi How Are you? 😀";
 
-    String convertedMessage = convertString(message); // Convert to ASCII
-    String convertedBack = convertBack(convertedMessage); // Convert back to Unicode
+    String convertedMessage = convertString(message);
+    String convertedBack = convertBack(convertedMessage);
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Handling ASCII and Unicode in Flutter'),
+        title: Text('Handling ASCII and Unicode'),
       ),
       body: Center(
         child: Column(
